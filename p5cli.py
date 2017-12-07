@@ -17,9 +17,9 @@ except IndexError:
         method = 'null'
 
  
-if  api_name != "md5" and api_name != "factorial" and api_name != "fibonacci" and api_name != "i$
+if  api_name != "md5" and api_name != "factorial" and api_name != "fibonacci" and api_name != "is-prime" and api_name != "slack-alert" and api_name != "kv-record" and api_name != "kv-retrieve": 
         (
-                sys.exit("sorry wrong API argument try:\n md5\n factorial\n fibonacci\n is-prime$
+                sys.exit("sorry wrong API argument try:\n md5\n factorial\n fibonacci\n is-prime\n slack-alert\n kv-record\n kv-retrieve")
         )
 
 url= "http://0.0.0.0:5000/" + api_name + "/" + input 
