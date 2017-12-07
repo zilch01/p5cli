@@ -1,4 +1,7 @@
 p5cli.py only runs in Python 2.7
+Requests library needed for python
+
+	sudo pip install requests (need pip installed)
 
 Only first two arguments are need for the API listed below:
 md5
