@@ -15,3 +15,5 @@ all 4 arguments must be present If using kv-record
 the fourth argument can only be "post" or "put" 
 Using kv-record:
 	./p5cli kv-record [String] [Value] [POST or PUT]
+
+***Might have to configure IP address to local IP****
