@@ -1,3 +1,5 @@
+p5cli.py only runs in Python 2.7
+
 How to make p5cli.py exacutable
 
 step 1) copy code to unix
